@@ -12,7 +12,14 @@ If you get an error, download the install package from <http://nodejs.org/> or y
 brew install node
 ```
 #### 2. Webpack
-webpack is a module bundler, this means webpack takes modules with dependencies and emits static assets representing those modules. FMI: https://webpack.github.io/
+You need to install the Webpack cli by running:
+
+```
+npm install -g webpack
+```
+Webpack is a module bundler, this means webpack takes modules with dependencies and emits static assets representing those modules. FMI: https://webpack.github.io/
+
+
 
 ### Aplication Setup
 - To setup this project you need to clone it.
